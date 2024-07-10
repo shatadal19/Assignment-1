@@ -193,4 +193,68 @@ font-weight: bolder;
     padding: 34px;
     border: 2px solid rgba(13, 19, 33, .5);
     border-radius: 8px;
+    margin-bottom: 144px;
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 50vh;
+    /* background-color: red; */
+    margin-left: 14%;
+}
+.title-3{
+    text-align: center;
+    
+} 
+.title-3 p{
+    margin-top: 20px;
+    /* color: rgba(255, 76, 30, 0.05); */
+    font-weight: 100;
+    font-size: smaller;
+
+}
+
+.card{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+
+}
+.card-1{
+    width: 30%;
+    height: 30vh;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    
+
+}
+.card-1 p{
+    font-weight: 100;
+    font-size: smaller;
+}
+.card-2{
+    width: 30%;
+    height: 30vh;
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+
+}
+.card-2 p{
+    font-weight: 100;
+    font-size: smaller;
+}
+.card-3{
+    width: 30%;
+    height: 30vh;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.card-3 p{
+    font-weight: 100;
+    font-size: smaller;
 }
