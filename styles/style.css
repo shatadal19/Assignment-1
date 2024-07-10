@@ -35,3 +35,52 @@ width: 100%;
     align-items: center;
     
 }
+
+.banner-title-description{
+    background-image: url(../assets/Hero-bg.png);
+    width: 100vw;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    /* justify-self: center; */
+    
+}
+.banner{
+    /* display: flex; */
+    
+    margin: 0 26px;
+}
+.Group{
+    margin-top: 26px;
+}
+.title{
+    margin-top: 36px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 0 200px;
+    text-align: center;
+}
+
+.description{
+    margin-top: 36px;
+    padding: 0 400px;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+
+
+.btn button{
+    margin-top: 36px;
+    padding: 21px 24px;
+    background-color: rgba(13, 19, 33, 1);
+    border-radius: 8px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgba(13, 19, 33, 1);
+}
